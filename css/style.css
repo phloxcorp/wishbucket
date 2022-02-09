@@ -16,14 +16,14 @@ body{
 @font-face {
       src : url("../wishbucket/files/YdestreetB.otf") format('opentype'),
       		url("../wishbucket/files/YdestreetB.ttf") format('truetype');
-      font-family: "ydestreet_bold";
+      font-family: "YdestreetB";
 }
 
 
 @font-face {
       src : url("../wishbucket/files/NotoSansCJKkr-Regular.otf") format('opentype'),
       url("../wishbucket/files/NotoSansCJKkr-Regular.ttf") format('truetype');
-      font-family: "notosanscjkkr_regular";
+      font-family: "NotoSansCJKkr-Regular";
 }
 
 a{
