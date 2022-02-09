@@ -22,9 +22,7 @@ body{
 
 
 @font-face {
-      src : url("../files/NotoSansKR-Regular.otf") format('opentype');
-      font-family: "NotoSansKR-Regular";
-      font-display:swap;
+      font-family: 'Noto Sans KR', sans-serif;
 }
 
 a{
