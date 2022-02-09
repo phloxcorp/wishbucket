@@ -100,7 +100,8 @@ button:active{
 .gnb{
 
 display:block;
-position: sticky;
+position: fixed;
+width:100vw;
 left: 0px;
 top: 0px;
 background: #181717;
@@ -894,7 +895,7 @@ button{
 @media screen and (min-width:835px) and (max-width:1024px){
 
 .gnbcontents{
-	width: calc(100% - 71px);
+	width: calc(100% - 160px);
 }
 
 .mainsection{
