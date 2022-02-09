@@ -14,15 +14,15 @@ body{
 
 
 @font-face {
-      src : url("files/YdestreetB.otf") format('opentype'),
-      		url("files/YdestreetB.ttf") format('truetype');
+      src : url("../files/YdestreetB.otf") format('opentype'),
+      		url("../files/YdestreetB.ttf") format('truetype');
       font-family: "YdestreetB";
 }
 
 
 @font-face {
-      src : url("../wishbucket/files/NotoSansCJKkr-Regular.otf") format('opentype'),
-      url("../wishbucket/files/NotoSansCJKkr-Regular.ttf") format('truetype');
+      src : url("../files/NotoSansCJKkr-Regular.otf") format('opentype'),
+      url("../files/NotoSansCJKkr-Regular.ttf") format('truetype');
       font-family: "NotoSansCJKkr-Regular";
 }
 
