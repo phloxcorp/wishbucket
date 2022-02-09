@@ -10,13 +10,13 @@ body{
 
 
 @font-face {
-      src : url("https://github.com/phloxcorp/wishbucket/raw/main/files/YdestreetB.otf");
+      src : url("../wishbucket/files/YdestreetB.otf");
       font-family: "ydestreet_bold";
 }
 
 
 @font-face {
-      src : url("https://github.com/phloxcorp/wishbucket/raw/main/files/NotoSansCJKkr-Regular.otf");
+      src : url("../wishbucket/files/NotoSansCJKkr-Regular.otf");
       font-family: "notosanscjkkr_regular";
 }
 
