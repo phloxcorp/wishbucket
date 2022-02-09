@@ -34,7 +34,7 @@ button{
 	border:none;
 	background-color:#181717;
 	color:white;
-	font-family:"NotoSansKR-Regular",'Apple SD Gothic',san-serif;
+	font-family:"Noto Sans KR",'Apple SD Gothic',san-serif;
 	font-size:1rem;
 	border-radius:18px;
 	padding: 18px 36px;
@@ -164,7 +164,7 @@ z-index:1;
 }
 
 .main_qrtext{
-	font-family:"NotoSansKR-Regular",'Apple SD Gothic',san-serif;
+	font-family:"Noto Sans KR",'Apple SD Gothic',san-serif;
 	color:#E6E6E6;
 	font-size:1rem;
 	margin-top:1rem;
@@ -228,7 +228,7 @@ z-index:1;
 }
 
 .sectionsubtext{
-	font-family:"NotoSansKR-Regular",'Apple SD Gothic',san-serif;
+	font-family:"Noto Sans KR",'Apple SD Gothic',san-serif;
 	font-size:1rem;
 	margin-bottom:2rem;
 	line-height:1.9rem;
@@ -329,7 +329,7 @@ z-index:1;
 }
 
 .footertext{
-	font-family:"NotoSansKR-Regular",'Apple SD Gothic',san-serif;
+	font-family:"Noto Sans KR",'Apple SD Gothic',san-serif;
 	font-size:0.7rem;
 	color:white;
 	line-height:1.5rem;
