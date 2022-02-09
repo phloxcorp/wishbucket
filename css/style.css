@@ -1,0 +1,1000 @@
+body{
+	background-color: #181717;
+	margin:0px;
+
+	width:100vw;
+	max-width:100%;
+	
+	overflow-x:hidden;
+}
+
+
+@font-face {
+      src : url("../fonts/YdestreetB.otf");
+      font-family: "ydestreet_bold";
+}
+
+@font-face {
+      src : url("../fonts/YdestreetL.otf");
+      font-family: "ydestreet_Light";
+}
+
+@font-face {
+      src : url("../fonts/Montserrat-Bold.ttf");
+      font-family: "montserrat_bold";
+}
+
+@font-face {
+      src : url("../fonts/NotoSansCJKkr-Bold.otf");
+      font-family: "notosanscjkkr_bold";
+}
+
+@font-face {
+      src : url("../fonts/NotoSansCJKkr-Regular.otf");
+      font-family: "notosanscjkkr_regular";
+}
+
+a{
+	text-decoration:none;
+}
+
+
+button{
+	border:none;
+	background-color:#181717;
+	color:white;
+	font-family:"NotoSansCJKkr-Bold";
+	font-size:1rem;
+	border-radius:18px;
+	padding: 18px 36px;
+}
+
+button:hover{
+	background-color:#40FE8D;
+	cursor:pointer;
+	color:black;
+	transition-duration:0.3s;
+	transition-timing-function:ease;
+}
+
+button:active{
+	background-color:#31E479;
+	transition-duration:0s;
+}
+
+
+
+
+.graybtn{
+	background-color:#565656;
+}
+
+
+/* gnb */
+.menu{
+	font-family: "montserrat_bold";
+	font:white;
+	display:flex;
+}
+
+
+.menutext{
+	margin-left:36px;
+	font-family:"Montserrat-Bold";
+	color:white;
+	font-size:0.9rem;
+}
+
+.menutext:hover{
+	color:#40FE8D;
+	transition-duration:0.3s;
+	transition-timing-function:ease;
+	
+}
+
+.menutextgray{
+	margin-left:36px;
+	font-family:"Montserrat-Bold";
+	color:#565656;
+	font-size:0.9rem;
+}
+
+.menutextgray:hover{
+	color:#40FE8D;
+	transition-duration:0.3s;
+	transition-timing-function:ease;
+}
+
+
+.gnb{
+
+display:block;
+position: sticky;
+left: 0px;
+top: 0px;
+background: #181717;
+justify-content:center;
+z-index:1;
+}
+
+.gnbcontents{
+
+	width: calc(100vw - 160px);
+	height: 4.2rem;
+	left: 100px;
+	top: 32px;
+
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	margin:0px auto;
+	max-width:1020px;
+	align-items:center;
+}
+
+.wishbucketlogo{
+	width:10rem;
+}
+
+#instagram{
+	display:none;
+}
+
+/*메인 상단*/
+
+.mainsection{
+	margin-top:8rem;
+}
+.maincontents{
+	width: calc(100% - 255px);
+	max-width:774px;
+	margin:0px auto;
+	display:flex;
+	margin-bottom:1rem;
+
+}
+
+
+.main_textsection{
+	margin-bottom:6rem;
+	margin-top:2rem;
+
+
+}
+
+.main_maintext{
+	font-family:"YdestreetB";
+	color:white;
+	font-size:2.6rem;
+	width:20rem;
+	line-height:3.6rem;
+
+
+}
+
+.main_qrtext{
+	font-family:"YdestreetL";
+	color:#E6E6E6;
+	font-size:1rem;
+	margin-top:1rem;
+}
+
+.main_qrimg{
+	width:8rem;
+	margin-top:1rem;
+}
+
+
+.main_imgsection{
+	position:relative;
+	width:100%;
+}
+
+.main_mainimg{
+	width:40rem;
+	position:absolute;
+	left:11%;
+	top:-31%;
+	z-index:-1;
+}
+
+#maindownloadbtn{
+	display:none;
+}
+
+
+/*중간섹션*/
+
+.sectioncontents{
+	display:flex;
+}
+
+.screensection{
+	background-color:white;
+	border-radius:36px;
+	width:1020px;
+	margin:0px auto;
+}
+
+.screencontents{
+	display:flex;
+	width:calc(100% - 255px);
+	max-width:774px;
+	margin:0px auto;
+	padding-top:6rem;
+}
+
+.screenimg{
+	height:100%;
+	width:17rem;
+}
+
+.sectionmaintext{
+	font-family:"YdestreetB";
+	font-size:2.2rem;
+	margin-bottom:1.2rem;
+	line-height:3.2rem;
+}
+
+.sectionsubtext{
+	font-family:"NotoSansCJKkr-Regular";
+	font-size:1rem;
+	margin-bottom:2rem;
+	line-height:1.9rem;
+}
+
+
+.textsection_white{
+	margin-left:6rem;
+	margin-top:3.3rem;
+}
+
+
+/*중간 버킷분류섹션*/
+.textsection_black{
+	color:white;
+	margin-top:8rem;
+}
+
+.bucketimg{
+	width:28rem;
+	position:relative;
+	top:0%;
+	left:38%;
+}
+
+
+
+/*버킷섹션*/
+.bucketslist{
+	text-align:center;
+	width:100%;
+	max-width:1252px;
+}
+
+.bucket{
+	width:13rem;
+	margin-bottom:2rem;
+	margin-right:1.9rem;
+}
+
+.bucket:hover{
+	width:13.3rem;
+	transition-duration:0.3s;
+	transition-timing-function:ease;
+}
+
+.sectiontitle{
+	font-family:"YdestreetB";
+	color:white;
+	font-size:2.2rem;
+	text-align:center;
+}
+
+#otherbucketsectiontitle{
+	margin-bottom:5rem;
+}
+
+#otherbucketssectioncontents{
+	display:block; 
+	margin:0px auto;
+	width: calc(100vw - 100px);
+	max-width:1252px;
+	margin-top:8rem;
+	margin-bottom:8rem;
+}
+
+
+/*마지막섹션*/
+
+.downloadsection{
+	background-color:black;
+}
+
+#downloadsectioncontents{
+	display:block;
+	padding: 9rem 0rem;
+}
+
+.downloadlogo{
+	text-align:center;
+}
+
+#downloadbtn{
+	text-align:center;
+}
+
+.wishbucketlogo2{
+	width:18rem;
+	margin: 2rem 0rem;
+}
+
+.footercontents{
+	
+	width: calc(100vw - 160px);
+	margin:0px auto;
+	max-width:1020px;
+
+}
+
+.footertext{
+	font-family:"NotoSansCJKkr-Regular";
+	font-size:0.7rem;
+	color:white;
+	line-height:1.5rem;
+	margin:3rem 0rem;
+
+}
+
+
+
+/* 반응형 */
+
+
+/* 모바일 ~320px */
+
+@media screen and (max-width: 320px){
+
+	#main{
+		min-width:320px;
+	}
+
+
+	button{
+		padding: 17px 22px;
+		font-size:0.8rem;
+	}
+
+	/*gnb*/
+
+	.gnbcontents{
+		width:90vw;
+		min-width:256px;
+	}
+
+	.wishbucketlogo{
+		width:10rem;
+	}
+
+	.menu{
+		display:none;
+	}
+
+	#instagram{
+		display:flex;
+	}
+
+	/*main*/
+
+	.mainsection{
+		margin-top:1rem;
+	}
+
+	.maincontents{
+		width: calc(100% - 64px);
+		flex-direction:column;
+	}
+
+	.main_textsection{
+		margin-bottom:0rem;
+	}
+
+	.main_mainimg{
+		left:-28%;
+		width:163%;
+		position:relative;
+	}
+
+	.main_maintext{
+		font-size:1.8rem;
+		line-height:2.4rem;
+	}
+
+	.main_qrsection{
+		display:none;
+	}
+
+	#maindownloadbtn{
+		display:flex;
+		margin-top:1.4rem;
+	}
+
+
+
+	/*savesection*/
+
+	.screensection{
+		width:100vw;
+		min-width:320px;
+	}
+
+	.screencontents{
+		width: calc(100% - 64px);
+		flex-direction:column;
+		padding:0;
+	}
+
+	.sectionmaintext{
+		font-size:1.4rem;
+		line-height:1.9rem;
+		margin-bottom:0.7rem;
+	}
+
+	.sectiontitle{
+		font-size:1.4rem;
+	}
+
+	.sectionsubtext{
+		font-size:0.7rem;
+		line-height:1.2rem;
+		margin-bottom:1.3rem;
+	}
+
+
+	.textsection_white{
+		margin-left:0;
+		margin-top:4rem;
+		margin-bottom:2rem;
+	}
+
+	.imgsection_white{
+		order:2;
+		text-align:center;
+		height:25rem;
+	}
+
+	.screenimg{
+		width:16rem;
+	}
+
+
+
+	#savesection{
+		margin-top:-13rem;
+	}
+
+
+
+	/*bucketsection*/
+
+	.textsection_black{
+		margin-top:4rem;
+	}
+
+	.bucketimg{
+		width:120%;
+		left:-7%;
+		margin:2rem 0rem;
+	}
+
+
+	/**/
+	/*othersbucketssection*/
+	#otherbucketssectioncontents{
+		margin-top:4rem;
+		width: calc(100% - 64px);
+		margin-bottom:4rem;
+	}
+
+	#otherbucketsectiontitle{
+		margin-bottom:3rem;
+		text-align:left;
+		width:13rem;
+	}
+
+	.bucket{
+		width:45%;
+		margin-bottom:1.3rem;
+		margin-right:0.4rem;
+	}
+
+	/*download*/
+
+	#downloadtitle{
+		width:13rem;
+		margin:0px auto;
+	}
+
+	.wishbucketlogo2{
+		width:13rem;
+	}
+
+	#downloadsectioncontents{
+		padding:7rem 0rem;
+	}
+
+	/*footer*/
+
+	.footercontents{
+		width: calc(100% - 64px);
+
+	}
+
+
+
+
+}
+
+
+
+
+/* 모바일 ~600px */
+@media screen and (min-width:321px) and (max-width: 600px){
+
+
+button{
+	padding: 17px 22px;
+	font-size:0.9rem;
+}
+
+/*gnb*/
+
+.gnbcontents{
+	width:90vw;
+}
+
+.wishbucketlogo{
+	width:10rem;
+}
+
+.menu{
+	display:none;
+}
+
+#instagram{
+	display:flex;
+}
+
+/*main*/
+
+.mainsection{
+	margin-top:1rem;
+}
+
+.maincontents{
+	width: calc(100% - 64px);
+	flex-direction:column;
+}
+
+.main_textsection{
+	margin-bottom:0rem;
+}
+
+.main_mainimg{
+	left:-28%;
+	width:163%;
+	position:relative;
+}
+
+.main_maintext{
+	font-size:2rem;
+	line-height:2.8rem;
+}
+
+.main_qrsection{
+	display:none;
+}
+
+#maindownloadbtn{
+	display:flex;
+	margin-top:1.4rem;
+}
+
+
+
+/*savesection*/
+
+.screensection{
+	width:100vw;
+}
+
+.screencontents{
+	width: calc(100% - 64px);
+	flex-direction:column;
+	padding:0;
+}
+
+.sectionmaintext{
+	font-size:1.6rem;
+	line-height:2.3rem;
+	margin-bottom:0.7rem;
+}
+
+.sectiontitle{
+	font-size:1.6rem;
+}
+
+.sectionsubtext{
+	font-size:0.8rem;
+	line-height:1.5rem;
+	margin-bottom:1.3rem;
+}
+
+
+.textsection_white{
+	margin-left:0;
+	margin-top:4rem;
+	margin-bottom:2rem;
+}
+
+.imgsection_white{
+	order:2;
+	text-align:center;
+	height:25rem;
+}
+
+.screenimg{
+	width:16rem;
+}
+
+
+
+#savesection{
+	margin-top:-13rem;
+}
+
+
+
+/*bucketsection*/
+
+.textsection_black{
+	margin-top:4rem;
+}
+
+.bucketimg{
+	width:100%;
+	left:0%;
+}
+
+
+/**/
+/*othersbucketssection*/
+#otherbucketssectioncontents{
+	margin-top:4rem;
+	width: calc(100% - 64px);
+	margin-bottom:4rem;
+}
+
+#otherbucketsectiontitle{
+	margin-bottom:3rem;
+	text-align:left;
+	width:15rem;
+}
+
+.bucket{
+	width:45%;
+	margin-bottom:1.3rem;
+	margin-right:0.4rem;
+}
+
+/*download*/
+
+#downloadtitle{
+	width:15rem;
+	margin:0px auto;
+}
+
+.wishbucketlogo2{
+	width:13rem;
+}
+
+#downloadsectioncontents{
+	padding:7rem 0rem;
+}
+
+/*footer*/
+
+.footercontents{
+	width: calc(100% - 64px);
+
+}
+
+
+}
+
+
+/* 태블릿 600 ~ 834px */
+
+@media screen and (min-width:601px) and (max-width: 834px){
+
+
+	button{
+		padding: 17px 22px;
+		font-size:0.9rem;
+	}
+
+	/*gnb*/
+
+	.gnbcontents{
+		width:90vw;
+		max-width:600px;
+	}
+
+	.wishbucketlogo{
+		width:10rem;
+	}
+
+	.menu{
+		display:none;
+	}
+
+	#instagram{
+		display:flex;
+	}
+
+	/*main*/
+
+	.mainsection{
+		margin-top:1rem;
+	}
+
+	.maincontents{
+		width: calc(100% - 128px);
+		max-width:472px;
+		flex-direction:column;
+	}
+
+	.main_textsection{
+		margin-bottom:0rem;
+	}
+
+	.main_mainimg{
+		left:-2%;
+		width:107%;
+		margin-top:-3rem;
+		position:relative;
+	}
+
+	.main_maintext{
+		font-size:2.1rem;
+		line-height:3rem;
+	}
+
+	.main_qrsection{
+		display:none;
+	}
+
+	#maindownloadbtn{
+		display:flex;
+		margin-top:1.4rem;
+	}
+
+
+
+	/*savesection*/
+
+	.screensection{
+		width:100vw;
+		max-width:600px;
+	}
+
+	.screencontents{
+		width: calc(100% - 128px);
+		max-width:472px;
+		flex-direction:column;
+		padding:0;
+	}
+
+	.sectionmaintext{
+		font-size:1.8rem;
+		line-height:2.5rem;
+		margin-bottom:0.7rem;
+	}
+
+	.sectiontitle{
+		font-size:1.8rem;
+	}
+
+	.sectionsubtext{
+		font-size:0.9rem;
+		line-height:1.7rem;
+		margin-bottom:1.3rem;
+	}
+
+
+	.textsection_white{
+		margin-left:0;
+		margin-top:4rem;
+		margin-bottom:2rem;
+	}
+
+	.imgsection_white{
+		order:2;
+		text-align:center;
+		height:25rem;
+	}
+
+	.screenimg{
+		width:16rem;
+	}
+
+
+
+	#savesection{
+		margin-top:-13rem;
+	}
+
+
+
+	/*bucketsection*/
+
+	.textsection_black{
+		margin-top:4rem;
+	}
+
+	.bucketimg{
+		width:100%;
+		left:0%;
+	}
+
+
+	/**/
+	/*othersbucketssection*/
+	#otherbucketssectioncontents{
+		margin-top:4rem;
+		width: calc(100% - 128px);
+		max-width:472px;
+		margin-bottom:4rem;
+	}
+
+	#otherbucketsectiontitle{
+		margin-bottom:3rem;
+		text-align:center;
+		width:auto;
+	}
+
+	.bucket{
+		width:45%;
+		margin-bottom:1.3rem;
+		margin-right:0.4rem;
+	}
+
+	/*download*/
+
+	#downloadtitle{
+		width:auto;
+		margin:0px auto;
+	}
+
+	.wishbucketlogo2{
+		width:13rem;
+	}
+
+	#downloadsectioncontents{
+		padding:7rem 0rem;
+	}
+
+	/*footer*/
+
+	.footercontents{
+		width: calc(100% - 128px);
+		max-width:600px;
+
+	}
+
+
+}
+
+
+
+/* 작은 pc 834 ~ 1024px */
+
+
+@media screen and (min-width:835px) and (max-width:1024px){
+
+.gnbcontents{
+	width: calc(100% - 71px);
+}
+
+.mainsection{
+	margin-top:7rem;
+}
+
+.maincontents{
+	width: calc(100% - 164px);
+	max-width:689px;
+}
+
+.main_maintext{
+	font-size:2.3rem;
+	line-height:3.3rem;
+}
+
+.main_qrimg{
+	width:6rem;
+}
+
+.main_mainimg{
+	width:34rem;
+	left:-13%;
+	top:-25%;
+}
+
+
+.screencontents{
+	width: calc(100% - 164px);
+	padding-top:5rem;
+}
+
+
+.screensection{
+	width:835px;
+}
+
+.sectionmaintext{
+	font-size:1.9rem;
+	line-height:2.6rem;
+	margin-bottom:0.8rem;
+}
+
+.sectiontitle{
+	font-size:1.9rem;
+}
+
+.textsection_white{
+	margin-left:3.3rem;
+	margin-top:4rem;
+}
+
+.sectionsubtext{
+	font-size:0.9rem;
+	line-height:1.6rem;
+}
+
+
+.screenimg{
+	width:16rem;
+}
+
+
+#bucketsectionsubtext{
+	width:17rem;
+}
+
+.bucketimg{
+	width:26rem;
+	left:13%;
+}
+
+#bucketsectioncontents{
+	margin-bottom:1.5rem;
+}
+
+#salesectiontextbox{
+	margin-top:5.3rem;
+}
+
+}
+	
+
+
+
+
+
+
+
+
+
+
+
+
