@@ -29,7 +29,7 @@ button{
 	border:none;
 	background-color:#181717;
 	color:white;
-	font-family:"NotoSansCJKkr-Regular";
+	font-family:"NotoSansCJKkr-Regular",'Apple SD Gothic',san-serif;
 	font-size:1rem;
 	border-radius:18px;
 	padding: 18px 36px;
@@ -58,7 +58,7 @@ button:active{
 
 /* gnb */
 .menu{
-	font-family: "YdestreetB";
+	font-family: "YdestreetB",'Apple SD Gothic',san-serif;
 	font:white;
 	display:flex;
 }
@@ -66,7 +66,7 @@ button:active{
 
 .menutext{
 	margin-left:36px;
-	font-family:"YdestreetB";
+	font-family:"YdestreetB",'Apple SD Gothic',san-serif;
 	color:white;
 	font-size:0.9rem;
 }
@@ -80,7 +80,7 @@ button:active{
 
 .menutextgray{
 	margin-left:36px;
-	font-family:"YdestreetB";
+	font-family:"YdestreetB",'Apple SD Gothic',san-serif;
 	color:#565656;
 	font-size:0.9rem;
 }
@@ -149,7 +149,7 @@ z-index:1;
 }
 
 .main_maintext{
-	font-family:"YdestreetB";
+	font-family:"YdestreetB",'Apple SD Gothic',san-serif;
 	color:white;
 	font-size:2.6rem;
 	width:20rem;
@@ -159,7 +159,7 @@ z-index:1;
 }
 
 .main_qrtext{
-	font-family:"NotoSansCJKkr-Regular";
+	font-family:"NotoSansCJKkr-Regular",'Apple SD Gothic',san-serif;
 	color:#E6E6E6;
 	font-size:1rem;
 	margin-top:1rem;
@@ -216,14 +216,14 @@ z-index:1;
 }
 
 .sectionmaintext{
-	font-family:"YdestreetB";
+	font-family:"YdestreetB",'Apple SD Gothic',san-serif;
 	font-size:2.2rem;
 	margin-bottom:1.2rem;
 	line-height:3.2rem;
 }
 
 .sectionsubtext{
-	font-family:"NotoSansCJKkr-Regular";
+	font-family:"NotoSansCJKkr-Regular",'Apple SD Gothic',san-serif;
 	font-size:1rem;
 	margin-bottom:2rem;
 	line-height:1.9rem;
@@ -271,7 +271,7 @@ z-index:1;
 }
 
 .sectiontitle{
-	font-family:"YdestreetB";
+	font-family:"YdestreetB",'Apple SD Gothic',san-serif;
 	color:white;
 	font-size:2.2rem;
 	text-align:center;
@@ -324,7 +324,7 @@ z-index:1;
 }
 
 .footertext{
-	font-family:"NotoSansCJKkr-Regular";
+	font-family:"NotoSansCJKkr-Regular",'Apple SD Gothic',san-serif;
 	font-size:0.7rem;
 	color:white;
 	line-height:1.5rem;
