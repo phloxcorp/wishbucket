@@ -379,7 +379,7 @@ z-index:1;
 	/*main*/
 
 	.mainsection{
-		margin-top:1rem;
+		margin-top:5rem;
 	}
 
 	.maincontents{
@@ -748,6 +748,7 @@ button{
 
 	.main_textsection{
 		margin-bottom:0rem;
+		margin-top:5.6rem;
 	}
 
 	.main_mainimg{
