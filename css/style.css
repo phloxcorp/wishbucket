@@ -14,8 +14,8 @@ body{
 
 
 @font-face {
-      src : url("../wishbucket/files/YdestreetB.otf") format('opentype'),
-      		url("../wishbucket/files/YdestreetB.ttf") format('truetype');
+      src : url("files/YdestreetB.otf") format('opentype'),
+      		url("files/YdestreetB.ttf") format('truetype');
       font-family: "YdestreetB";
 }
 
