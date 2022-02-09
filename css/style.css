@@ -17,12 +17,14 @@ body{
       src : url("../files/YdestreetB.otf") format('opentype'),
       		url("../files/YdestreetB.ttf") format('truetype');
       font-family: "YdestreetB";
+      font-display:swap;
 }
 
 
 @font-face {
       src : url("../files/NotoSansKR-Regular.otf") format('opentype');
       font-family: "NotoSansKR-Regular";
+      font-display:swap;
 }
 
 a{
