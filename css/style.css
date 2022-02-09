@@ -10,27 +10,13 @@ body{
 
 
 @font-face {
-      src : url("../fonts/YdestreetB.otf");
+      src : url("https://github.com/phloxcorp/wishbucket/raw/main/files/YdestreetB.otf");
       font-family: "ydestreet_bold";
 }
 
-@font-face {
-      src : url("../fonts/YdestreetL.otf");
-      font-family: "ydestreet_Light";
-}
 
 @font-face {
-      src : url("../fonts/Montserrat-Bold.ttf");
-      font-family: "montserrat_bold";
-}
-
-@font-face {
-      src : url("../fonts/NotoSansCJKkr-Bold.otf");
-      font-family: "notosanscjkkr_bold";
-}
-
-@font-face {
-      src : url("../fonts/NotoSansCJKkr-Regular.otf");
+      src : url("https://github.com/phloxcorp/wishbucket/raw/main/files/NotoSansCJKkr-Regular.otf");
       font-family: "notosanscjkkr_regular";
 }
 
@@ -43,7 +29,7 @@ button{
 	border:none;
 	background-color:#181717;
 	color:white;
-	font-family:"NotoSansCJKkr-Bold";
+	font-family:"NotoSansCJKkr-Regular";
 	font-size:1rem;
 	border-radius:18px;
 	padding: 18px 36px;
@@ -72,7 +58,7 @@ button:active{
 
 /* gnb */
 .menu{
-	font-family: "montserrat_bold";
+	font-family: "YdestreetB";
 	font:white;
 	display:flex;
 }
@@ -80,7 +66,7 @@ button:active{
 
 .menutext{
 	margin-left:36px;
-	font-family:"Montserrat-Bold";
+	font-family:"YdestreetB";
 	color:white;
 	font-size:0.9rem;
 }
@@ -94,7 +80,7 @@ button:active{
 
 .menutextgray{
 	margin-left:36px;
-	font-family:"Montserrat-Bold";
+	font-family:"YdestreetB";
 	color:#565656;
 	font-size:0.9rem;
 }
@@ -173,7 +159,7 @@ z-index:1;
 }
 
 .main_qrtext{
-	font-family:"YdestreetL";
+	font-family:"YdestreetB";
 	color:#E6E6E6;
 	font-size:1rem;
 	margin-top:1rem;
