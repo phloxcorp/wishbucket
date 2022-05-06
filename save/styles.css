@@ -1,0 +1,37 @@
+@font-face {
+    src : url("../files/YdestreetB.otf") format('opentype'),
+          url("../files/YdestreetB.ttf") format('truetype');
+    font-family: "YdestreetB";
+    font-display: swap;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  background: #181717;
+}
+
+.ios-sample__img {
+    width: 100%;
+}
+
+.ios-sample__button {
+    display: block;
+	font-family: "YdestreetB";
+    font-size: 1.6rem;
+    color: white;
+    padding: 1.9rem 5rem;
+    background: #7f50ff;
+    border-radius: 1.6rem;
+    margin: 3.6rem 2.6rem 7.2rem;
+    text-align: center;
+    text-decoration: none;
+}
