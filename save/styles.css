@@ -19,13 +19,13 @@ html {
   background: #181717;
 }
 
-.ios-sample__img {
+.sample__img {
     width: 100%;
 }
 
-.ios-sample__button {
+.sample__button {
     display: block;
-	font-family: "YdestreetB";
+    font-family: "YdestreetB";
     font-size: 1.6rem;
     color: white;
     padding: 1.9rem 5rem;
