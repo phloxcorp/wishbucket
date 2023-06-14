@@ -30,6 +30,15 @@
 	<link rel="icon" href="/favicon.svg">
 	<link href="style.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-N5T3KPY05J"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-N5T3KPY05J');
+	</script>
 	
 
 </head>
@@ -47,7 +56,7 @@
 				<div class="menu">
 					<a class="menutext" href="index.html">HOME</a>
 					<a class="menutextgray" href="https://www.instagram.com/i_am_wishbucket/" target="_blank">INSTAGRAM</a>
-					<a class="menutextgray" href="https://app.wishbucket.io/save" target="_blank">DOWNLOAD</a>
+					<a class="menutextgray download" href="https://app.wishbucket.io/save" target="_blank">DOWNLOAD</a>
 				</div>
 
 				<div id="instagram">
@@ -67,10 +76,10 @@
 					<div class="main_maintext">어떤 곳이든<br>원하는 아이템<br><div style="color:#00FF8D;">바로 저장!</div></div>
 					<div class="main_qrsection">
 						<div class="main_qrtext">스캔해서 위시버킷 다운받기</div>
-						<a href="https://app.wishbucket.io/save" target="_blank"><img class="main_qrimg" src="files/qrcode.png" alt="wishbucketqr"></a>
+						<a href="https://app.wishbucket.io/save" target="_blank" class="download"><img class="main_qrimg" src="files/qrcode.png" alt="wishbucketqr"></a>
 					</div>
 					<div id="downloadbttop">
-						<button id= "maindownloadbtn" class="graybtn" type="button" onclick= "window.open('https://app.wishbucket.io/save')">앱 다운로드
+						<button id= "maindownloadbtn" class="graybtn download" type="button" onclick= "window.open('https://app.wishbucket.io/save')">앱 다운로드
 						</button>
 					</div>
 
@@ -166,7 +175,7 @@
 					<img class="wishbucketlogo2" src="files/wb_white.png" alt="">
 				</div>
 				<div id="downloadbtn">
-						<button class="graybtn" type="button" onclick= "window.open('https://app.wishbucket.io/save')">앱 다운로드
+						<button class="graybtn download" type="button" onclick= "window.open('https://app.wishbucket.io/save')">앱 다운로드
 						</button>
 					</div>
 			</div>
@@ -194,6 +203,6 @@
 	  <script>
 	    AOS.init();
 	  </script>
-
+	<script type="module" src="main.js"></script>
 </body>
 </html>
