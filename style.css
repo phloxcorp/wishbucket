@@ -393,6 +393,7 @@ z-index:1;
     	text-align: center;
 		padding-bottom:150%;
 		backdrop-filter: blur(8px);
+		z-index:10;
 	}
 
 	.menutext, .menutextgray{
@@ -628,6 +629,7 @@ button{
 	text-align: center;
 	padding-bottom:150%;
 	backdrop-filter: blur(8px);
+	z-index:10;
 }
 
 .menutext, .menutextgray{
@@ -846,6 +848,7 @@ button{
     	text-align: center;
 		padding-bottom:150%;
 		backdrop-filter: blur(8px);
+		z-index:10;
 	}
 
 	.menutext, .menutextgray{
