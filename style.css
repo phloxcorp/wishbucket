@@ -124,13 +124,22 @@ z-index:1;
 	align-items:center;
 }
 
+
+#menuIcon{
+	display:none;
+}
+
+.menu_mobile{
+	display:none;
+}
+
 .wishbucketlogo{
 	width:10rem;
 }
 
-#instagram{
+/* #instagram{
 	display:none;
-}
+} */
 
 /*메인 상단*/
 
@@ -372,8 +381,61 @@ z-index:1;
 		display:none;
 	}
 
+	.menu_mobile {
+		display: none;
+		color: white;
+		margin-top: 4.2rem;
+		position: fixed;
+		background-color: rgba(24,23,23,0.98);
+		width: 100vw;
+		list-style: none;
+		padding-inline-start: 0;
+    	text-align: center;
+		padding-bottom:150%;
+		backdrop-filter: blur(8px);
+	}
+
+	.menutext, .menutextgray{
+		margin-left:0;
+	}
+
+	.menu_mobile > li{
+		margin: 1.6rem 0rem;
+	}
+
+	#menuIcon{
+		display:flex;
+	}
+
+	.menuIconImg{
+		width:18px;
+		height:18px;
+	}
+
+	#menuOpenIcon{
+		display:flex;
+	}
+
+	#menuCloseIcon{
+		display:none;
+	}
+
+/* 
 	#instagram{
 		display:flex;
+	} */
+
+	#menuIcon{
+		display:flex;
+	}
+
+	.menuIconImg{
+		width:18px;
+		height:18px;
+	}
+
+	#menuOpenIcon{
+		display:none;
 	}
 
 	/*main*/
@@ -386,6 +448,7 @@ z-index:1;
 		width: calc(100% - 64px);
 		flex-direction:column;
 	}
+
 
 	.main_textsection{
 		margin-bottom:0rem;
@@ -553,9 +616,49 @@ button{
 	display:none;
 }
 
-#instagram{
+.menu_mobile {
+	display: none;
+	color: white;
+	margin-top: 4.2rem;
+	position: fixed;
+	background-color: rgba(24,23,23,0.98);
+	width: 100vw;
+	list-style: none;
+	padding-inline-start: 0;
+	text-align: center;
+	padding-bottom:150%;
+	backdrop-filter: blur(8px);
+}
+
+.menutext, .menutextgray{
+	margin-left:0;
+}
+
+.menu_mobile > li{
+	margin: 1.6rem 0rem;
+}
+
+#menuIcon{
 	display:flex;
 }
+
+.menuIconImg{
+	width:18px;
+	height:18px;
+}
+
+#menuOpenIcon{
+	display:flex;
+}
+
+#menuCloseIcon{
+	display:none;
+}
+
+/* 
+#instagram{
+	display:flex;
+} */
 
 /*main*/
 
@@ -731,9 +834,49 @@ button{
 		display:none;
 	}
 
-	#instagram{
+	.menu_mobile {
+		display: none;
+		color: white;
+		margin-top: 4.2rem;
+		position: fixed;
+		background-color: rgba(24,23,23,0.98);
+		width: 100vw;
+		list-style: none;
+		padding-inline-start: 0;
+    	text-align: center;
+		padding-bottom:150%;
+		backdrop-filter: blur(8px);
+	}
+
+	.menutext, .menutextgray{
+		margin-left:0;
+	}
+
+	.menu_mobile > li{
+		margin: 1.6rem 0rem;
+	}
+
+	#menuIcon{
 		display:flex;
 	}
+
+	.menuIconImg{
+		width:18px;
+		height:18px;
+	}
+
+	#menuOpenIcon{
+		display:flex;
+	}
+
+	#menuCloseIcon{
+		display:none;
+	}
+
+/* 	
+	#instagram{
+		display:flex;
+	} */
 
 	/*main*/
 
